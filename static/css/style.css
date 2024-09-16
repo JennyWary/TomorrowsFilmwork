@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    /*flex-wrap: wrap-reverse;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header a{
+    margin-left:  100px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.container a{
+    max-width: 22%;
+    width: 22%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.container a img{
+    /*max-width: 22%;*/
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.container-social{
+    margin-top: 10px;
+    width: 250px;
+}
+
+.container-social a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+/*.container img{*/
+/*    max-width: 22%;*/
+/*    height: auto;*/
+/*    width: 100%;*/
+/*    aspect-ratio: 4/3;*/
+/*    object-fit: cover;*/
+/*}*/
+
+/*img{*/
+/*     max-width: 380px;*/
+/*     max-height: 250px;*/
+/* }*/
+
+/*img.crop-center{*/
+/*    height: 300px;*/
+/*    object-fit: cover;*/
+/*    !*object-position: top center;*!*/
+/*}*/
+
+/* Grundstil für das Bild */
+.image-container img {
+    width: 200px; /* Ursprüngliche Größe */
+    transition: transform 0.3s ease; /* Weicher Übergang bei Hover */
+}
+
+/* Stil bei Hover */
+.image-container img:hover {
+    transform: scale(1.5); /* Bild wird um 1.5x vergrößert */
+}
+
+
