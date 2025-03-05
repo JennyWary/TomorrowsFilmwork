@@ -1,56 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tomorrows Filmwork</title>
-<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="../static/css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <header>
-    <a href="index.html">
-        <img id="logo" src="../static/imgs/TF_NR_Logo_schwarz.png" alt="logo" >
-    </a>
-
-    <div class="container-social">
-        <a href="https://www.instagram.com/tomorrowsfilmwork/">
-            <img class="crop-center" src="../static/imgs/instagram.png" alt="youtube">
-        </a>
-        <a href="https://www.youtube.com/@niklasrmn">
-            <img class="crop-center" src="../static/imgs/youtube.png" alt="youtube">
-        </a>
-        <a href="mailto:name@bla.de">
-            <img class="crop-center" src="../static/imgs/umschlag.png" alt="youtube">
-        </a>
-    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="../static/imgs/TF_Logo_wei.png" alt="Logo">
+            </a>
+            <!-- Social Media Icons -->
+            <div class="d-flex social-icons">
+                <a href="https://www.instagram.com/tomorrowsfilmwork/">
+                    <img src="../static/imgs/instagram_white.png" alt="Instagram">
+                </a>
+                <a href="mailto:niklas.reimann4@gmail.com">
+                    <img src="../static/imgs/email_white.png" alt="E-Mail">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!--    </nav>-->
 </header>
-    <div class="container">
-
-        <a href="kranichs.html">
-            <img class="crop-center" src="../static/imgs/FaltenDesKranichs.jpg" alt="Kranichs">
-        </a>
-
-        <a href="cll.html" class="img-container">
-            <img class="crop-center" src="../static/imgs/CCL_Imagefilm.jpg" alt="CCL">
-        </a>
-
-        <a href="iceland.html">
-            <img class="crop-center" src="../static/imgs/Island.jpg" alt="Island">
-        </a>
-
-        <a href="crovette.html">
-            <img class="crop-center" src="../static/imgs/CrovetteSpecAd.png" alt="Crovette">
-        </a>
 
 
-        <a href="mx.html">
-            <img class="crop-center" src="../static/imgs/wall1.jpg" alt="MX Classic Culitzch">
-        </a>
+<div class="container-fluid">
+    <div class="row ">
 
-        <a href="daf.html">
-            <img class="crop-center" src="../static/imgs/wall1.jpg" alt="DAF Sachsenrallyes">
-        </a>
+        <div class="col-md-4">
+            <a href="crovette.html">
+                <div class="image-container">
+                    <img class="img-fluid w-100" src="../static/imgs/1_Corvette_C4.gif" alt="Crovette">
+                    <div class="overlay">Corvette C4 // Spec Ad</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="mx.html">
+                <div class="image-container">
+                    <img class="img-fluid w-100" src="../static/imgs/2_Klettern_im_Elbsandsteingebirg2.gif" alt="MX Classic Culitzch">
+                    <div class="overlay">Klettern im Elbsandsteingebirge // Short Documentary</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="daf.html">
+                <div class="image-container">
+                    <img class="img-fluid w-100" src="../static/imgs/3_Made_For_Daf.gif" alt="DAF Sachsenrallyes">
+                    <div class="overlay">Made for DAF // Branded Content</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="iceland.html">
+                <div class="image-container">
+                    <img class="img-fluid w-100" src="../static/imgs/4_Moments_from_Iceland.gif" alt="Iceland">
+                    <div class="overlay">Moments from Iceland // Travel Film</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="cll.html" class="img-container">
+                <div class="image-container">
+
+                    <img class="img-fluid w-100" src="../static/imgs/5_CLL_Meerane.gif" alt="CCL">
+
+                    <div class="overlay">CCL Meerane // Imagefilm </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="kranichs.html">
+                <div class="image-container">
+                    <img class="img-fluid w-100" src="../static/imgs/6_Falten_des_Kranichs.gif" alt="Kranichs">
+                    <div class="overlay">Die Falten des Kranichs // Trailer</div>
+                </div>
+            </a>
+        </div>
     </div>
-
+</div>
 </body>
+<footer class=" text-light py-4">
+    <div class="container text-center">
+        <div class="row">
+            <!-- Social Media -->
+            <div class="col-md-4">
+                <a href="https://facebook.com" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" class="text-light"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="col-md-4">
+                <p class="mb-0">&copy; 2025 TomorrowFilmwork. Alle Rechte vorbehalten.</p>
+            </div>
+
+            <!-- Links -->
+            <div class="col-md-4">
+                <a href="impressum.html" class="text-light text-decoration-none">Impressum</a> |
+                <a href="datenschutz.html" class="text-light text-decoration-none">Datenschutz</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </html>
+
+<!--TODO datenschutz, impressum-->
