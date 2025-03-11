@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory
 
 
 app = Flask(__name__)
@@ -47,6 +47,11 @@ def impressum():
 @app.route("/datenschutz")
 def datenschutz():
     return render_template("datenschutz.html")
+
+
+@app.route("/sitemap.xml")
+def sitemap():
+    return send_from_directory("static", "sitemap.xml")
 
 
 # Run app
