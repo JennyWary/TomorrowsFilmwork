@@ -3,7 +3,7 @@
 ## 🌟 Projektbeschreibung
 **Entwicklung einer professionellen Portfolio-Webseite für einen Videoproduzenten**
 
-Diese Website wurde entwickelt, um das Portfolio eines freiberuflichen Videoproduzenten optimal zu präsentieren. Ziel war es, eine ansprechende und moderne Webpräsenz zu schaffen, die sowohl die Arbeiten als auch die Expertise des Videoproduzenten hervorhebt.
+Diese Website wurde entwickelt, um das Portfolio eines freiberuflichen Videoproduzenten optimal zu präsentieren. 
 
 ## 🔗 Live-Version
 [Tomorrows Filmwork](https://tomorrows-filmwork.com/)
