@@ -5,9 +5,6 @@
 
 Diese Website wurde entwickelt, um das Portfolio eines freiberuflichen Videoproduzenten optimal zu präsentieren. 
 
-## Live-Version
-[Tomorrows Filmwork](https://tomorrows-filmwork.com/)
-
 ## Features
 - **Modernes Design**: Ein ansprechendes, minimalistisches Layout, das die Videos in den Vordergrund stellt.
 - **Responsives Webdesign**: Optimiert für Desktop, Tablet und Mobile.
